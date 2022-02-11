@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+    background: #276678;
+}
+
+.register-box{
+	width: 600px;
+	height: 950px;
+	background: #ffffffbe;
+	box-sizing: border-box;
+	border-radius: 40px;
+	padding: 40px 30px;
+    position: absolute;
+    top: 50%;   left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.register-box p{
+	font-size: 25px;
+    font-weight: bold;
+    padding: 0px 13px;
+}
+
+.register-box input[type=radio]{
+	border: 0px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.register-box input{
+	width: 100%;
+	margin-bottom: 10px;
+    border: none;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+}
+
+.register-box input[type="file"] {
+	margin-top: 20px;
+	border: none;
+	outline: none;
+	width: 100%;
+}
+
+.register-box input[type=checkbox] {
+	border: 0px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+	margin-left: 15px;
+}
+
+.register-box input[type="submit"], input[type="reset"] {
+	margin-top: 10px;
+	border: none;
+	outline: none;
+	width: 100%;
+	background: #1687a7;
+	color: #e4fbff;
+	font-size: 30px;
+	border-radius: 20px;
+}
+.register-box input[type="submit"]:hover, input[type="reset"]:hover {
+	background: #276678;
+	color: #fff;
+	cursor: pointer;
+}
+.register-box a{
+	text-decoration: none;
+    padding: 10px 60px;
+	font-size: 20px;
+	line-height: 40px;
+	color: rgb(0, 0, 0);
+}
+.register-box a:hover{
+	color: #00d9ff;
+}
